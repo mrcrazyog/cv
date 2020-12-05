@@ -75,7 +75,7 @@ p {
 }
 
 #title .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 15% 10%;
 }
 
 
@@ -87,7 +87,7 @@ p {
   transform: rotate(25deg);
   position: absolute;
   right: 25%;
-  width: 60%;
+  width: 45%;
 }
 
 .download {
