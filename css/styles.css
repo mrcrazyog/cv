@@ -1,10 +1,15 @@
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 /* Headings */
@@ -13,19 +18,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   font-size: 3.5rem;
   color: white;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .section-heading {
   font-size: 3rem;
   line-height: 1.5;
-}
-
-.cta {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  padding: 5% 5% 0 5%;
-  font-size: 3rem;
 }
 
 .container-fluid {
@@ -41,13 +39,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
 }
 
-#title {
-  text-align: left;
-
-}
-
-#title .container-fluid {
-  padding: 3% 15% 7%;
+.cta {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  padding: 5% 5% 0 5%;
+  font-size: 3rem;
 }
 
 
@@ -71,6 +67,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+#title {
+  text-align: left;
+  color: white;
+  background-color: #ff4c68;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
 .iphone-mockup {
   -ms-transform: rotate(25deg);
   -moz-transform: rotate(25deg);
@@ -92,12 +100,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .feature-icon {
   color: #ef8172;
-  margin: auto;
-  padding: 0 0 5% 0;
+  margin-bottom: 1rem;
 }
 
 .feature-box {
-  padding: 5%;
+  padding: 4.5%;
 }
 
 .feature-icon:hover {
@@ -162,22 +169,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
 }
 
-@media (max-width: 1028px) {
-  .iphone-mockup {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    position: static;
-
-  }
-
-  #title {
-        text-align: center;
-  }
-}
-
 #cta {
 
   color: white;
@@ -191,10 +182,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-icon {
-  padding: 0 1% 0 0;
-  margin-bottom: 2%;
+  margin: 20px 10px;
 }
 
 .copyright-text {
   color: #8f8f8f;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  #title {
+        text-align: center;
+
+  }
+
+  .big-heading {
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+
+  .iphone-mockup {
+    transform: rotate(0deg);
+    position: static;
+
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .cta {
+    font-size: 1.7rem;
+  }
+
+  .price-text {
+    font-size: 1.7rem;
+  }
+
+  .copyright-text {
+    font-size: 0.5rem;
+  }
+
+
 }
